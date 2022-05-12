@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #f0f1f6;
+}
+
+body{
+	font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: .81rem;
+    color: #000;
+    line-height: 1.35em;
+    letter-spacing: .02em;
+    min-width: 320px;
+    position: relative;
+}
+
+h1 {
+	font-weight: 600;
+	margin-bottom: 22px;
+}
+
+p {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.progect {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.bodyArticles {
+	padding: 35px;
+	background-color: #fff;
+	border-radius: 15px;
+	width: 60%;
+	margin: 20px 0 80px 0;
+}
+
+.title {}
+.titleText {
+	font-size: 1.875rem;
+    line-height: 1.2em;
+    margin-top: 20px;
+}
+
+
+/*BTN*/
+.articlePreviousNext {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+#btnPage {
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10%; 
+	width: 10px;
+	margin: 10px;
+}
+
+
+/*bodyComments*/
+.bodyComments {
+	position:relative;
+	padding: 35px;
+	width: 60%;
+	background-color: #fff;
+	border-radius: 15px;
+	margin: 80px 0 20px 0;
+
+}
+
+.comments {}
+.photoUsers {}
+.commentsText {
+	background-color: #eaeeff;
+	padding: 15px 20px;
+    border-radius: 10px;
+    max-width: 637px;
+    position: relative;
+    word-break: break-word;
+    margin-bottom: 8px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.dataPost {
+	font-size: smaller;
+	color: #6e7494;
+}
+
+.h1Coment {
+}
+
+
+/*commentField*/
+.commentField {
+	display: flex;
+	position:absolute;
+	bottom:0;
+}
+
+#comments{
+	opacity: 0.4;
+	width: 95%;
+	height: 25px;
+}
+
+#commentsBtn{
+	/*border-radius: 0px 0px 15px 0px;*/
+	width: 30px;
+}
