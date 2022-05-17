@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #f0f1f6;
+}
+
+body{
+	font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: .81rem;
+    color: #000;
+    line-height: 1.35em;
+    letter-spacing: .02em;
+    min-width: 320px;
+    position: relative;
+}
+
+h1 {
+	font-weight: 600;
+	margin-bottom: 22px;
+}
+
+p {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.game{
+/*	display: flex;
+	justify-content: center;*/
+}
+
+.areaGameTicTac {
+	display: flex;
+	background-color: #fff;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 1000px;
+    margin: -500px 0 0 -500px;
+    border-radius: 2%;
+}
+
+.fieldGame {
+	margin: 60px;
+	/*border: 1px solid;*/
+}
+.buttonGame {}
+
+
+
+.bloke {
+    background-color: #f0f1f6;
+    padding: 120px;
+    font-size: 40px;
+    
+}
+
+.closed{
+    background-color: green;
+}
